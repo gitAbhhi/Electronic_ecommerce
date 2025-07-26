@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@media (max-width: 480px) {
+    .custom-toast {
+      font-size: 14px;
+      margin-top: 60px;
+      width: 50% !important;
+      padding: 8px 10px;
+    }
+  }
