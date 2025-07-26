@@ -13,7 +13,7 @@ const Home = ({url}) => {
 
     //fetch product using fake api
     const fetchProducts = async () => {
-        const res = await axios.get(url+`/api/products`).catch((err) => { console.log("err ", err) })
+        const res = await axios.get(url+`/api/product/products`).catch((err) => { console.log("err ", err) })
         setproducts(res.data.products)
     }
 

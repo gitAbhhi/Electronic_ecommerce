@@ -16,7 +16,7 @@ app.use(cors())
 connectDB();
 // api endpoints
 app.use('/api/user',userRouter )
-app.use('/api/',productRouter)
+app.use('/api/product',productRouter)
 
 
 app.get("/",(req,res)=>{

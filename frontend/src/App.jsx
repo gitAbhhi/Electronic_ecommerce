@@ -11,7 +11,7 @@ import Register from './pages/Register'
 
 
 function App() {
-  const url='http://localhost:4000'
+  const url='https://electronic-ecommerce-backend.onrender.com'
   return (
 <>
       <ToastContainer />
